@@ -7,7 +7,7 @@ module.exports.main = function () {
 fs = require('fs');
 
 var jsonParser = require('ngraph.serialization/json'),
-    json_results = fs.readFileSync('../../ngraph_results.json', 'utf8')
+    json_results = fs.readFileSync('../ngraph_results.json', 'utf8')
 
   var  graph = jsonParser.load(json_results);
 
