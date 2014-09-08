@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "node_modules/.bin/browserify -t brfs -s ngraph index.js > bundle.js"
+  },
+  "dependencies": {
+    "brfs": "^1.1.1",
+    "fabric": "~1.4.3",
+    "fs": "0.0.1",
+    "ngraph.fabric": "~0.0",
+    "ngraph.forcelayout": "~0.0",
+    "ngraph.generators": "~0.0",
+    "ngraph.pixi": "0.0.1",
+    "ngraph.serialization": "0.0.3",
+    "ngraph.sparse-collection": "0.0.2",
+    "query-string": "~0.1.1"
+  },
+  "devDependencies": {
+    "browserify": "~3.18.0"
+  }
+}
